@@ -16,6 +16,8 @@ WHERE NAME LIKE '%승재...'`
 FROM PEOPLE
 WHERE NAME IS NULL`
 
+ - Mysql 에서는 NULL도 인덱스를 탄다??[링크](https://devzeroty.tistory.com/entry/MySQL-NULL%EC%9D%80-INDEX%EB%A5%BC-%ED%83%88%EA%B9%8C)[링크2](https://dev.mysql.com/doc/refman/8.0/en/create-index.html)
+
 ### 인덱스로 지정된 칼럼이 가공되거나 변형된 경우
 ----
 `SELECT *
