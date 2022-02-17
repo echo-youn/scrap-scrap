@@ -7,4 +7,4 @@ reduce는 초기값을 설정하지 않아서 `Empty Collection`을 수행하게
 `fold()`는 초기값을 설정해 준다.
 
 
- `#감산기 #reduce #fold #acc`
+ #감산기 #reduce #fold #acc
