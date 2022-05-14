@@ -3,13 +3,15 @@
 ## Homebrew
 설치
 ```
+-- Xcode 이때 설치 됨.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew update
 
-// Git, iTerm, Google Chrome, 
+/****************** Dev Tools ********************/
 
-brew install git iterm2 docker docker-compose node vnm 
+brew install git iterm2 docker docker-compose node vnm openjdk@8 openjdk@11 curl
 
-brew install --cask google-chrome slack visual-studio-code postman
+brew install --cask google-chrome slack postman dbeaver-community intellij-idea visual-studio-code github
+
 ```
