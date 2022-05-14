@@ -14,4 +14,7 @@ brew install git iterm2 docker docker-compose node vnm openjdk@8 openjdk@11 curl
 
 brew install --cask google-chrome slack postman dbeaver-community intellij-idea visual-studio-code github
 
+/************* 단축어 *************/
+echo "alias ll='ls -al'" > ~/.zshrc
+
 ```
