@@ -10,9 +10,13 @@ brew update
 
 /****************** Dev Tools ********************/
 
-brew install git iterm2 docker docker-compose node vnm openjdk@8 openjdk@11 curl
+brew install git iterm2 docker docker-compose node vnm curl maven gradle
 
-brew install --cask google-chrome slack postman dbeaver-community intellij-idea visual-studio-code github
+brew install --cask google-chrome slack postman dbeaver-community intellij-idea visual-studio-code github 
+
+brew tap AdoptOpenJDK/openjdk
+
+brew install --cask adoptopenjdk8 adoptopenjdk11
 
 /************* 단축어 *************/
 echo "alias ll='ls -al'" > ~/.zshrc
