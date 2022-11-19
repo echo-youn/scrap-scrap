@@ -30,9 +30,20 @@ echo "alias ll='ls -al'" > ~/.zshrc
 ### Utility
 
 ```shell
-$ sudo apt-get update
+usermod -aG sudo $(whoami)
+sudo apt-get update
 
-$ sudo apt-get install wget gpg git apt-transport-https
+sudo apt-get install wget curl gpg git apt-transport-https
+
+# node(19.x) npm nvm
+curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
+sudo apt install build-essential libssl-dev
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+
+# reload bash
+nvm install --lts
+
 ```
 
 ### Visual Studio Code
