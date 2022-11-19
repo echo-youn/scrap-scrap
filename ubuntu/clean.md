@@ -32,4 +32,6 @@ $ sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
 
 ## Korean Language
-
+```
+$ ibus-setup # setup 후 로그아웃
+```
